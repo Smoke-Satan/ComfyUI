@@ -5,7 +5,6 @@ import torch
 from torch import Tensor, nn
 
 from .math import attention, rope
-import comfy.ops
 
 
 class EmbedND(nn.Module):
